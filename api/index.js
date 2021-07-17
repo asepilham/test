@@ -27,7 +27,7 @@ state = 0;
 bot.onText(/\/predict/, (msg) => { 
     bot.sendMessage(
 	msg.chat.id,
-	`masukan nilai contohnya 9|9`
+	`masukan nilai contohnya 25|42`
 	);   
 	state = 1;
 });
